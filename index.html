@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,400;0,700;1,300;1,600&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+                                                <!-- Navbar -->
+    <nav class="navv container-fluid fixed-top">  
+
+        <button class="menu-bar" onclick="showMenu()">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <div class="row justify-content-center align-items-baseline">
+            <div class="logo-container col-2">
+                <h3 class="port ms-lg-4 ms-0 text-light">Portfo<span class="lio">lio</span></h3>
+            </div>
+            <div class="menu-div col-7 col-lg-8">
+                <div class="row align-items-center">
+                    <ul class="navbar-links d-flex justify-content-center align-items-end">
+                        <li class="menu-item list-unstyled me-md-4 me-lg-5"><a class="text-decoration-none" href="#my-home" style="color: aliceblue;">Hero</a></li>
+                        <li class="menu-item list-unstyled me-md-4 me-lg-5"><a class="text-decoration-none" href="#my-about-me" style="color: aliceblue;">About Me</a></li>
+                        <li class="menu-item list-unstyled me-md-4 me-lg-5"><a class="text-decoration-none" href="#my-project" style="color: aliceblue;">Projects</a></li>
+                        <li class="menu-item list-unstyled me-md-4 me-lg-5"><a class="text-decoration-none" href="#my-services" style="color: aliceblue;">Services</a></li>
+                        <li class="menu-item list-unstyled me-md-4 me-lg-5"><a class="text-decoration-none" href="#my-contact" style="color: aliceblue;">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cv-div col-2">
+                <div class="cv-row row">
+                    <div class="cv-container p-0">
+                        <a href="" class="navbar-cv ms-0 ms-lg-2 ms-xl-3">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+                                        <!-- Hero section -->
+    <main class="hero container-fluid" id="my-home">
+        <img class="img" src="img/h0.jpg" alt="">
+        <div class="info col-md-9 col-xl-6 col-lg-8 d-flex">
+            <div class="social-container p-2 d-md-block d-none">
+                <a href="" class="d-block fs-4 mt-5 me-4"><i class="bi bi-instagram"></i></a>
+                <a href="" class="d-block fs-4 mt-2"><i class="bi bi-facebook"></i></a>
+                <a href="" class="d-block fs-4 mt-2"><i class="bi bi-twitter"></i></a>
+                <a href="" class="d-block fs-4 mt-2"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <div class="ms-3 ms-md-2 ms-lg-3">
+                <span class="hi d-block fs-3 fw-bold">Hi,</span>
+                <h1 class="d-inline text-light h1">I am </h1>
+                <span class="input h1"></span>
+                <p class="about text-light mt-2 col-10 col-xl-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque amet voluptate et vel rem libero dolore sunt expedita dolor eos.</p>
+                <button class="more-btn mt-md-3 mt-lg-4">More About Me</button>
+                <div class="social-container d-block d-md-none mt-4 ms-2">
+                    <a href="" class="fs-4 me-2"><i class="bi bi-instagram"></i></a>
+                    <a href="" class="fs-4 me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="fs-4 me-2"><i class="bi bi-twitter"></i></a>
+                    <a href="" class="fs-4 mt-2"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>  
+        </div>
+
+        <div class="git">
+            <a href="" class="git-link"><i class="bi bi-github me-2 text-light"></i>You can visit my github</a>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <section class="about-section container-fluid" id="my-about-me">
+        <div class="row ">
+            <div class="col-12 sub-col">
+                <div class="row">
+                    <div class="col-12 text-center mb-lg-5 mb-md-4 mb-sm-3 mb-4">
+                        <h1 class="" style="color: #DC3535;">About Me</h1>
+                    </div>
+                    <div class="main-about row align-items-center" style="margin-bottom: 70px;">
+                        <div class="col-lg-4 col-md-5 col-4 col-sm-5 col-12">
+                            <div class="row justify-content-sm-end justify-content-center">
+                                <img src="img/aboutman.jpg" alt="" style="width: 400px;" class="about-img d-inline img-fluid ms-3 ms-sm-0">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-sm-6">
+                            <div class="row mt-sm-0 mt-4 mb-sm-0 mb-3">
+                                <p class="fs-5 fw-bold mb-lg-4 mb-md-3 text-center text-sm-start" style="color: antiquewhite;"><span style="color: #DC3535;">Hello,</span> I'm Ziyadkhan and Web Developer</p>
+                                <p class="text-center text-sm-start" style="color: rgb(202, 199, 194);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur exercitationem voluptas possimus at fuga obcaecati minima aliquam deserunt facere architecto itaque animi officia iste, temporibus culpa natus minus aperiam cum!</p>
+                            </div>
+                            <div class="row mt-lg-4 mt-md-2 mb-4">
+                                <div class="text-sm-start text-center">
+                                    <div class="about-choosen-container me-2" onclick="chooseAbout('personal','skills','experience')">
+                                        <button class="about-choosen-btn d-block pb-0 mb-0">Personal</button>  
+                                        <span class="about-choosen-btn-border personal-border"></span> 
+                                    </div>
+                                    <div class="about-choosen-container me-2" onclick="chooseAbout('skills','personal','experience')">
+                                        <button class="about-choosen-btn d-block pb-0 mb-0">Skills</button>  
+                                        <span class="about-choosen-btn-border skills-border"></span> 
+                                    </div>
+                                    <div class="about-choosen-container" onclick="chooseAbout('experience','personal','skills')">
+                                        <button class="about-choosen-btn d-block pb-0 mb-0">Experience</button>  
+                                        <span class="about-choosen-btn-border experience-border"></span> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="personal-info row mt-lg-4 mt-md-3 mt-sm-2">
+                                <div class="col-lg-10 ms-4 ms-sm-2">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 text-muted">
+                                            <span class="d-block mb-2"><span style="color: #ae2d2d;">Birthday:</span> 17 January 2002</span>
+                                            <span class="d-block mb-2"><span style="color: #ae2d2d;">City:</span> Baku</span>
+                                            <span class="d-block"><span style="color: #ae2d2d;">Age:</span> 20</span>                                   
+                                        </div>
+                                        <div class="col-12 col-lg-6 text-muted">
+                                            <span class="d-block mb-2"><span style="color: #ae2d2d;">University:</span> Khazar University</span>
+                                            <span class="d-block mb-2"><span style="color: #ae2d2d;">Freelance:</span> Avialable</span>
+                                            <span class="d-block"><span style="color: #ae2d2d;">Email:</span> murudovz17@gmail.com</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills-info row mt-4">
+                                <div class="col-lg-10 ms-2">
+                                    <div class="row">
+                                        <div class="col-6 text-muted">
+                                            <span class="d-block mb-2">HTML <i class="bi bi-arrow-up-circle ms-2"></i></span>
+                                            <span class="d-block mb-2">CSS <i class="bi bi-arrow-up-right-circle ms-2"></i></span>
+                                            <span class="d-block">JS <i class="bi bi-arrow-right-circle ms-2"></i></span>                                   
+                                        </div>
+                                        <div class="col-6 text-muted">
+                                            <span class="d-block mb-2">Bootstrap <i class="bi bi-arrow-up-right-circle ms-2"></i></span>
+                                            <span class="d-block mb-2">React <i class="bi bi-arrow-down-right-circle ms-2"></i><span>
+                                            <span class="d-block">Redux <i class="bi bi-arrow-down-right-circle ms-2"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience-info row mt-4">
+                                <div class="col-lg-10 ms-2">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 text-muted">
+                                            <span style="color: #ae2d2d;">2021-2022</span>
+                                            <span class="d-block mb-2">Internship at ekart eCommerce</span>                                  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-lg-5 mt-md-4 mt-sm-3 mt-4">
+                                <div class="col">
+                                    <button class="about-contact-btn fs-6 p-2 px-4"><i class="bi bi-telephone me-2"></i>Contact Me</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+
+
+
+
+
+                                             <!-- Project Section -->
+    <section class="container-fluid project-section" id="my-project">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="text-center fw-bold" style="color: #DC3535; margin-top: 75px;">Projects</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center mt-1 mb-5 fw-bold" style="color: rgb(225, 233, 239);">Recent Works</h2>
+                </div>
+            </div>
+            <div class="row justify-content-around works-row">
+                <div class="col-7 col-sm-5 col-md-3 mb-md-0 mb-5 work-container rounded-3">
+                    <div class="carda">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/todo.png" class="rounded my-3" alt="Avatar" style="width:70%">
+                        </div>
+                        <div class="acontainer">
+                          <h4 class="work-header text-center" style="color: rgb(225, 233, 239); text-shadow: 2px 2px 2px #171717;"><b>Todo</b></h4>
+                          <p class="work-about mb-5 small" style="letter-spacing: .3px; text-align: center; color: rgb(187, 187, 187);">You can mark the things you have to do here.</p>
+                        </div>
+                    </div>
+                    <a href="" class="go-site">Go Site<i class="bi bi-arrow-right-short fw-bold ms-1"></i></a>
+                </div>
+                <div class="col-7 col-sm-5 col-md-3 mb-md-0 mb-5 work-container rounded-3">
+                    <div class="carda">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/money.jpg" class="rounded my-3" alt="Avatar" style="width:70%">
+                        </div>
+                        <div class="acontainer">
+                          <h4 class="work-header text-center" style="color: rgb(225, 233, 239); text-shadow: 2px 2px 2px #171717;"><b>You Are Billionaire</b></h4>
+                          <p class="work-about mb-5 small" style="letter-spacing: .3px; text-align: center; color: rgb(187, 187, 187);">You are a billionaire. And this site has things what you want. Buy and enjoy. Don't waste it.</p>
+                        </div>
+                    </div>
+                    <a href="" class="go-site">Go Site<i class="bi bi-arrow-right-short"></i></a>
+                </div>
+                <div class="col-7 col-sm-5 col-md-3 work-container rounded-3">
+                    <div class="carda">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/foot.jpg" class="rounded my-3" alt="Avatar" style="width:70%">
+                        </div>
+                        <div class="acontainer">
+                          <h4 class="work-header text-center" style="color: rgb(225, 233, 239); text-shadow: 2px 2px 2px #171717;"><b>Myazu</b></h4>
+                          <p class="work-about mb-5 small" style="letter-spacing: .3px; text-align: center; color: rgb(187, 187, 187);">This is the official website of the world famous Myazu. Here you can find shoes according to your taste. Try the brands now.</p>
+                          
+                        </div>
+                    </div>
+                    <a href="" class="go-site">Go Site<i class="bi bi-arrow-right-short"></i></a>
+                </div>
+            </div>
+
+            <div class="row justify-content-center" style="margin-top: 100px;">
+                <div class="col-11 col-md-8 card-col-8 p-md-4 pt-3 bg-secondary" style="background-image: linear-gradient(to right bottom,#751117,#470D11)">
+                    <div class="row justify-content-start">
+                        <div class="col-sm-8 ms-sm-5 ms-2">
+                            <div class="acontainer">
+                                <h4 class="text-center mb-4" style="color: rgb(214, 217, 221);"><b>Do you have a new project?</b></h4>
+                                <p class="ms-2" style="color: rgb(214, 217, 221);">If you want such modern and beautiful sites, you can contact me.</p>
+                                <p class="ms-2" style="color: rgb(214, 217, 221);"><span class="fw-bold" style="color: #1d6baa;">30%</span> discount until January</p>
+                                <button class="d-none d-sm-block btn mt-3 px-4" style="background-color: #1d6baa; color: aliceblue;">Hire Me</button>
+                              </div>
+                        </div>
+                        <div class="col-sm-2 mt-2 position-relative">
+                            <div class="row">
+                                <div class="col p-0 m-0">
+                                    <img src="img/a" class="img-fluid" alt="Avatar">
+                                    <button class="btn d-sm-none text-center ms-3 mb-3 position-absolute start-0 bottom-0" style="background-color: #1d6baa; color: aliceblue;">Hire me</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+                                                     <!-- Services -->
+    <section style="background-color: #111112;" id="my-services" class="pb-5">
+        <div class="row">
+            <h4 class="text-center" style="color: #DC3535; margin-top: 90px;">Services</h4>
+            <h3 class="text-center fw-bold" style="color: antiquewhite;">What I Offer</h3>
+        </div>
+        <div class="row justify-content-center gap-3 mt-5">
+            <div class="col-xl-2 col-md-3 col-5 rounded-3 pt-3" style="background-color: #222225;">
+                <div class="mt-2 mt-sm-3 mt-md-5 ms-1 ms-sm-3 col-sm-7 col-9 pb-4">
+                    <i class="bi bi-file-break fs-4" style="color: #DC3535;"></i>
+                    <h5 class="my-3" style="color: aliceblue;">Web Designer</h5> 
+                    <a href="" class="view_more text-decoration-none fw-bold" style="color: #DC3535;">View More<i class="bi bi-arrow-right ms-2 d-none d-sm-inline" style="color: #DC3535;"></i></a>
+                </div>   
+            </div>
+            <div class="col-xl-2 col-md-3 col-5 rounded-3 pt-3" style="background-color: #222225;">
+                <div class="mt-2 mt-sm-3 mt-md-5 ms-1 ms-sm-3 col-sm-7 col-9 pb-4"> 
+                    <i class="bi bi-border-style fs-4" style="color: #DC3535;"></i>
+                    <h5 class="my-3" style="color: aliceblue;">UI/UX Designer</h5>
+                    <a href="" class="view_more text-decoration-none fw-bold" style="color: #DC3535;">View More<i class="bi bi-arrow-right ms-2 d-none d-sm-inline" style="color: #DC3535;"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-2 col-md-3 col-5 rounded-3 pt-3" style="background-color: #222225;">
+                <div class="mt-2 mt-sm-3 mt-md-5 ms-1 ms-sm-3 col-9 pb-4">
+                    <i class="bi bi-pen fs-4" style="color: #DC3535;"></i>
+                    <h5 class="my-3" style="color: aliceblue;">Branding Designer</h5>
+                    <a href="" class="view_more text-decoration-none fw-bold" style="color: #DC3535;">View More<i class="bi bi-arrow-right ms-2 d-none d-sm-inline" style="color: #DC3535;"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+                                                <!-- Contact Section -->
+
+    <section class="" style="background-color: #111112; padding-bottom: 100px; position: relative;" id="my-contact">
+       <div class="row mb-4">
+        <h4 class="text-center" style="color: #DC3535; margin-top: 90px;">Get in Touch</h4>
+        <h2 class="text-center" style="color: aliceblue;">Contact Me</h2>
+    </div>
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <div class="row gap-3 justify-content-center">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row align-items-center mb-3">
+                                    <div class="col-1 p-0">
+                                        <i class="bi bi bi-telephone fs-3" style="color: #DC3535;"></i>
+                                    </div>
+                                    <div class="col-11">
+                                        <h5 style="color: antiquewhite;">Call Me</h5>
+                                        <a class="text-muted text-decoration-none" href="tel:+994556619711">+994 (55) 661 97 11</a>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center mb-3">
+                                    <div class="col-1 p-0">
+                                        <i class="bi bi-envelope fs-3" style="color: #DC3535;"></i>
+                                    </div>
+                                    <div class="col-11">
+                                        <h5 style="color: antiquewhite;">Email</h5>
+                                        <a class="text-muted text-decoration-none" href="mailto:murudovz17@gmail.com">murudovz17@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-1 p-0">
+                                        <i class="bi bi-geo-alt fs-3" style="color: #DC3535;"></i>
+                                    </div>
+                                    <div class="col-11">
+                                        <h5 style="color: antiquewhite;"> Location</h5>
+                                        <span class="text-muted">Baku Khazar</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="row">
+                            <form class="" action="">
+                                <div class="row gap-1 mb-3">
+                                    <div class="col-5"><input class="col-12 rounded-1 border-0 text-center" type="text" placeholder="Name" style="min-height: 70px;"></div>
+                                    <div class="col-5"><input class="col-12 rounded-1 border-0 text-center" type="text" placeholder="Email" style="min-height: 70px;"></div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <input class="col-10 p-2 ps-3" type="text" placeholder="Project">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <textarea class="col-10 p-2 ps-3" name="comment" form="usrform" maxlength="500" placeholder="Message" style="min-height: 100px; max-height: 300px; "></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="col">
+                                <button class="mt-4 py-2 px-3 border-0 rounded fw-bold" style="background-color: #1d6baa; color: aliceblue;">Send Message</i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12" style="position: absolute; bottom: 0;">
+            <div class="row">
+                <p class="text-center small text-muted bottom-0" style="letter-spacing: 1.2px;">Copyright <i class="bi bi-c-circle"></i> 2022 Murudov Ziyadkhan</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input",{
+            strings:["Murudov Ziyadkhan.","Front End Developer."],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop:true
+        });
+    </script>
+</body>
+</html>

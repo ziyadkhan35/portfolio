@@ -1,0 +1,467 @@
+html,body{
+    overflow-x: hidden;
+}
+                                    /* Navbar Section */
+.navv{
+    background-color: #212227;
+}
+.lio{
+    color: #277BC0;
+}
+
+.navbar-links .menu-item{
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: .3s;
+    /* font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.4px;
+    font-weight: 400; */
+    font-weight: bold;
+}
+.navbar-links li:hover{
+    color: rgb(200, 210, 218);
+}
+.navbar-links{
+    margin-top: 18px;
+}
+.navbar-cv{
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #277BC0;
+    font-weight: bold;
+    transition-property: background-color;
+    transition-duration: .2s;
+}
+.navbar-cv:hover{
+    background-color: rgb(7, 107, 150);
+    color: aliceblue;
+}
+.menu-bar{
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: x-large;
+    padding: 0;
+    margin-top: -7px;
+}
+
+
+ 
+ 
+ 
+ 
+                                    /* Main Section */
+.hi{
+    color: antiquewhite;
+}
+.hero{
+    position: relative;
+    height: 669px;
+    background-color: #212227;
+}
+.hero .info{
+    position: absolute;
+    top: 184px;
+    left: 70px;
+}
+.hero .git{
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+/* font-family: 'Anton', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+.h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 54px;
+    letter-spacing: 1.3px;
+    color: #DC3535;
+}
+.img{
+    position: absolute;
+    top: 74px;
+    right: 0;
+    width: 700px;
+}
+.social-container a{
+    color: antiquewhite;
+    transition: color,.3s;
+}
+.social-container a:hover{
+    color: #DC3535;
+}
+.more-btn{
+    background-color: #DC3535;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: aliceblue;
+    border: 2px solid #DC3535;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+.more-btn:hover{
+    background-color: transparent;
+}
+.git{
+    margin-left: 20px;
+}
+.git-link{
+    text-decoration: none;
+    color: #277BC0;
+}
+
+
+
+
+
+
+
+
+                                        /* About Section */
+
+.about-section{
+    background-color: #111112;
+}
+.about-choosen-btn{
+    color: #DC3535;
+    background-color: transparent;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-choosen-btn-border{
+    width: 50%;
+    height: 3px;
+    background-color: #DC3535;
+    border-radius: 5px;
+    transition-duration: .3s;
+}
+.about-choosen-container{
+    flex-direction: column;
+    display: inline-flex;
+    align-items: center;
+}
+.about-contact-btn{
+    background-color: #1e527c;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    transition-property: padding;
+    transition-duration: .3s;
+}
+.about-contact-btn:hover{
+   background-color: #174163;
+}
+.about-choosen-container:hover .about-choosen-btn-border{
+    width: 100%;
+}
+.about-img{
+    border-radius: 30px;
+}
+.personal-info{
+    display: flex;
+}
+.skills-info{
+    display: none;
+}
+.experience-info{
+    display: none;
+}
+.experience-border,.skills-border{
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 992px){
+    .main-about{
+        gap: 90px;
+        margin-left: 40px;
+    }
+    .sub-col{
+        margin-top: 80px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .main-about{
+        gap: 30px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .main-about{
+        gap: 10px;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 576px){
+    .sub-col{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+/* Lg */
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    /* Main Section */
+    .hero .img{
+        right: -130px;
+    }
+    .navbar-links .menu-item{
+        font-size: 18px;
+    }
+    /* Navbar Section */
+    .navbar-cv{
+        padding: 10px 22px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+}
+/* Md */
+@media screen and (min-width: 900px) and (max-width: 992px){
+
+    /* Navbar Section */
+    .navbar-cv{
+        padding: 6px 18px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .navbar-links .menu-item{
+        font-size: 16px;
+    }
+
+    /* Main Section */
+    .hero .img{
+        right: -150px;
+    }
+    .h1{
+        font-size: 46px;
+        letter-spacing: 1.2px;
+    }
+    .more-btn{
+        padding: 6px 18px;
+    }
+
+    /* About Section */
+
+}
+@media screen and (min-width: 768px) and (max-width: 899px){
+        /* Navbar Section */
+        .navbar-cv{
+            padding: 5px 13px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 12.5px;
+        }
+        .navbar-links .menu-item{
+            font-size: 16px;
+        }
+    
+        /* Main Section */
+        .hero .img{
+            right: -165px;
+        }
+        .h1{
+            font-size: 42px;
+            letter-spacing: 1.2px;
+        }
+        .more-btn{
+            padding: 6px 18px;
+        }
+}
+
+@media screen and (max-width: 768px){
+    .menu-div{
+        display: none;
+        position: absolute;
+        top: 0; left: 0;
+        z-index: 10;
+        width: 100%;
+        padding-top: 50px;
+        background-color: #212227;
+        height: 100%;
+    }
+    .navbar-links{
+        display: block !important;
+    }
+    .menu-item{
+        text-align: center;
+    }
+    .menu-item:not(last){
+        margin-bottom: 20px;
+    }
+    .menu-item:first-child{
+        margin-top: 10px;
+    }
+    .cv-div{
+        display: none;
+    }
+    .logo-container{
+        position: absolute;
+        top: 15px; left: 15px;
+        z-index: 20;
+    }   
+    .menu-bar{
+        display: block;
+        position: absolute;
+        top: 15px; right: 15px;
+        z-index: 20;
+    }
+    .hero .img{
+        left: -230px;
+    }
+    .h1{
+        font-size: 42px;
+        letter-spacing: 1.1px;
+    }
+    .more-btn{
+        padding: 5px 16px;
+    }
+    .hero .info{
+        position: absolute;
+        top: 120px;
+        left: 210px;
+    }
+    .menu-div > .row{
+        background-color: #212227;
+    }
+
+}
+@media screen and (min-width:500px) and (max-width: 690px){
+    .hero .info{
+        position: absolute;
+        top: 120px;
+        left: 30px;
+    }
+    .hero .img{
+        left: -240px;
+    }
+    .h1{
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (min-width:350px) and (max-width:500px){
+    .hero .info{
+        position: absolute;
+        top: 120px;
+        left: 20px;
+    }
+    .h1{
+        font-size: 38px;
+        letter-spacing: 1px;
+    }
+    .about{
+        font-size: 15px;
+        width: 90%;
+    }
+    .more-btn{
+        padding: 4px 16px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:350px){
+    .hero .info{
+        position: absolute;
+        top: 130px;
+        left: 0px;
+    }
+    .h1{
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .about{
+        font-size: 13px;
+        width: 90%;
+    }
+    .more-btn{
+        padding: 4px 16px;
+        font-size: 15px;
+    }
+    .hero .img{
+        left: -320px;
+    }
+    .social-container a{
+        font-size: medium !important;
+    }
+    
+}
+
+
+
+
+
+
+                                    /* Project Section   */
+.go-site{
+    color: #DC3535;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    letter-spacing: .4px;
+    padding: 2%;
+}
+.go-site:hover{
+    color: #a53434;
+}
+.project-section{
+    background-color: #111112;
+}
+.work-container{
+    background-color: #222225;
+    position: relative;
+}
+.card-col-8{
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 576px){
+    .work-header{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Services */
+@media screen and (max-width: 576px){
+    .view_more{
+        font-size: 90%;
+    }
+}
+
+
+
