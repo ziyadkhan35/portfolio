@@ -409,7 +409,7 @@ font-family: 'Ubuntu', sans-serif; */
         font-size: medium !important;
     }
     .about{
-        font-size: 1px;
+        font-size: 13px;
     }
     .git{
         margin-left: 0;
@@ -469,5 +469,39 @@ font-family: 'Ubuntu', sans-serif; */
     }
 }
 
+/* Contact */
+@media screen and (min-width: 576px){
+    .cont-nameemail{
+        min-height: 70px;
+    }
+}
 
+/* Arrow for Home */
+@media screen and (min-width: 576px){
+    .home-arrow{
+        display: none;
+    }
+}
+@media screen and (max-width: 576px){
+    .home-arrow{
+        position: fixed;
+        bottom: 16px;
+        right: 16px;
+        z-index: 1000;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3px 6px;
+        background-color: #c51e1e;
+    }
+    .home-arrow i{
+        font-size: 23px;
+        font-weight: bold;
+        color: aliceblue;
+    }
+    .home-arrow a{
+        text-decoration: none;
+    }
+}
 
