@@ -391,7 +391,7 @@ font-family: 'Ubuntu', sans-serif; */
         left: 0px;
     }
     .h1{
-        font-size: 30px;
+        font-size: 25px;
         letter-spacing: 0px;
     }
     .about{
@@ -403,10 +403,16 @@ font-family: 'Ubuntu', sans-serif; */
         font-size: 15px;
     }
     .hero .img{
-        left: -320px;
+        left: -20px;
     }
     .social-container a{
         font-size: medium !important;
+    }
+    .about{
+        font-size: 1px;
+    }
+    .git{
+        margin-left: 0;
     }
     
 }
