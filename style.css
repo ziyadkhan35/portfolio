@@ -51,6 +51,14 @@ html,body{
 }
 
 
+
+
+.res-nav{
+    width: 100%;
+    height: 55px;
+    display: none;
+}
+
  
  
  
@@ -349,6 +357,9 @@ font-family: 'Ubuntu', sans-serif; */
     .menu-div > .row{
         background-color: #212227;
     }
+    .res-nav{
+        display: block;
+    }
 
 }
 @media screen and (min-width:500px) and (max-width: 690px){
@@ -482,9 +493,6 @@ font-family: 'Ubuntu', sans-serif; */
         font-size: 1.2rem;
     }
 }
-
-
-
 
 
 
