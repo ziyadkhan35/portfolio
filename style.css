@@ -124,6 +124,10 @@ font-family: 'Ubuntu', sans-serif; */
     text-decoration: none;
     color: #277BC0;
 }
+.about{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.637);
+}
 
 
 
